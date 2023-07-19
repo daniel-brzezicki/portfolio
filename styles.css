@@ -326,8 +326,8 @@ hr{
 		  transition: bottom 1s, left 1s;
 	  }
 
-	  .hero img{
-		width:auto;
+	  .logo{
+		width: 35vw;
 	}
   
   
