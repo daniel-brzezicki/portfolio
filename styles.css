@@ -238,7 +238,7 @@ hr{
 	  margin-right:0.5vw;
 	  vertical-align: middle;
 	  max-width: 25vw;
-	  height: 400px;
+	  height: 420px;
   }
   
   .info h1{
@@ -290,14 +290,185 @@ hr{
   
   }
   
-  
   @media only screen and (max-width:1250px){
   
+	.detel{
+		margin-left:8%;
+		margin-top:0vh;
+	  margin-right:8%;
+	}
+
+	.detel p{
+	  margin-left:8%;
+	  margin-top:9%;
+	margin-right:10%;
+  }
+
+	
+	
+	.detel h1{
+		font-size:30px;
+		color: #212121;
+		margin-bottom:20px;
+	}
+
+	.images{
+		height: auto;
+		position: absolute;
+		bottom: 0;
+		right: 30vw;
+		max-height: 35vh;
+	}
+	
+	
+	.images img{
+		position: absolute;
+		left: 50%;
+		bottom:0;
+		height: auto;
+		max-height: 50vh;
+		transform: translateX(-50%);
+		transition: bottom 1s, left 1s;
+	}
+
+	.logo{
+	  width: 45vw;
+  }
+
+
+	nav ul li{
+		display: inline-block;
+		list-style:none;
+		margin: 2px 8px;
+	}
+	
+	nav ul li a{
+		font-size: 12px;
+		text-decoration: none;
+		color: #000;
+		font-weight: bold;
+	}
+
+	.game{
+		padding-top: 5vh;
+		padding-left: 10vw;
+		position: relative;
+		background: #eff4fd;
+		height:20vh;
+	}
+	
+	.content{
+		position:relative;
+		padding-left: 15vw;
+		padding-right: 8vw;
+	}
+	
+	
+	.game img{
+		max-width: 65%;
+		max-height: 65%;
+		position: relative;
+	}
+
+
+	
+.detel2 h1{
+	font-size:30px;
+	color: #212121;
+	margin-bottom:20px;
+}
+
+
+.content{
+	padding-top: 5vh;
+	position:relative;
+}
+
+
+.content h1{
+	font-size:15px;
+}
+
+.game{
+	padding-top: 5vh;
+	padding-left: 0vh;
+	position: relative;
+	background: #eff4fd;
+	height:auto;
+}
+
+.game img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius:25%;
+	max-width: 35%;
+	max-height: 35%;
+	position: relative;
+}
+
+.infocont{
+	background: #eff4fd;
+	position: relative;
+	height:auto;
+	width:100vw;
+	text-align: center;
+	
+}
+
+.info{
+	display: inline-block;
+	border: 1px solid dodgerblue;
+	padding: 10px 18px;
+
+	margin-left:0.5vw;
+	margin-right:0.5vw;
+	vertical-align: middle;
+	max-width: 70%;
+	height: auto;
+}
+.info h1{
+	font-size:18px;
+}
+
+.info p{
+	font-size: 16px;
+	text-align:justify;
+}
+
+.info span{
+	color: dodgerblue;
+	font-size: 12px;
+}
+
+.contact{
+	display: inline-block;
+	padding: 10px 5px;
+	margin-top: 1vh;
+	margin-bottom: 1vh;
+	vertical-align: middle;
+}
+.contact a{
+	font-size: 12px;
+}
+
+}
+
+  
+@media only screen and (max-height:750px){
+  
 	  .detel{
+
 		  margin-left:8%;
-		  margin-top:9%;
-	  
+		  margin-top:15vh;
+			margin-right:8%;
 	  }
+
+	  .detel p{
+		margin-left:8%;
+		margin-top:9%;
+	  margin-right:10%;
+	}
   
 	  
 	  
@@ -308,26 +479,25 @@ hr{
 	  }
   
 	  .images{
-		  top: 45vh;
-		  width:45%;
-		  height: 80%;
-		  position: absolute;
+		  height: auto;
+		  position: relative;
 		  bottom: 0;
+		  top:1000vh;
 		  right: 30vw;
-		  
 	  }
 	  
 	  
 	  .images img{
-		  position: absolute;
+		  position: relative;
 		  left: 50%;
 		  bottom:0;
+		  height: 1000vh;
 		  transform: translateX(-50%);
 		  transition: bottom 1s, left 1s;
 	  }
 
 	  .logo{
-		width: 10vw;
+		width: 45vw;
 	}
   
   
